@@ -1385,7 +1385,7 @@ where
                         },
                     Side::SellShort =>
                         if index == 0 {
-                            "SellShort Start"
+                            "SellShort First"
                         } else {
                             "SellShort +1"
                         },

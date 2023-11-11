@@ -7,7 +7,7 @@ async fn test_1() {
     let config = Config::new()
         .initial_margin(1000.0)
         .quantity(Unit::Quantity(0.01))
-        .margin(Unit::Quantity(10.0))
+        // .margin(Unit::Quantity(10.0))
         .lever(100)
         .open_fee(0.0002)
         .close_fee(0.0005)
